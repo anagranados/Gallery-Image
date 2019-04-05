@@ -64,3 +64,19 @@ img.tea-active{
 
     position: relative;
 }
+
+
+@media (max-width: 60rem) {
+   .tea-description{
+      display: none;
+     
+   }
+   .section{
+       flex: none;
+   }
+   .tea-gallery{
+       flex: none;
+       width: 100vw;
+       background-color: #0e1111;
+   }
+}
